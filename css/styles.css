@@ -1,0 +1,75 @@
+table {
+    border-collapse: collapse;
+    width: 95vw;
+    display: inline-block;
+    border: #ffffff solid 1px;
+    overflow: hidden;
+    border-radius: 7px;
+    text-align: center;
+}
+
+td, th {
+    padding: 2vw 2.5vw;
+    width: 100%;
+    min-width: 12vw;
+}
+
+
+thead {
+    font-size: 2vw;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+thead tr:nth-child(3) {
+    font-size: 5vw;
+}
+
+tbody, tfoot {
+    background-color: #dbdbdb;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+}
+
+tbody > tr:nth-child(even), tr > td:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+tr > td:first-child {
+    text-align: left;
+}
+
+
+thead, tr:first-child > th:first-child {
+    background-color: #7887ab;
+}
+
+tr > th:nth-child(4n+1) {
+    background-color: rgba(0, 16, 43, 0.2);
+}
+
+tr > th:nth-child(4n+2) {
+    background-color: rgba(0, 16, 43, 0.4);
+}
+
+tr > th:nth-child(4n+3) {
+    background-color: rgba(0, 16, 43, 0.6);
+}
+
+tr > th:nth-child(4n+4) {
+    background-color: rgba(0, 16, 43, 0.8);
+}
+
+
+a {
+    display: inherit;
+    width: 5vw;
+    border: 1px solid #6e6d6c;
+    padding: 1vw 2.5vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8vw;
+    color: #6e6d6c;
+    background-color: #d3d3d3;
+}
